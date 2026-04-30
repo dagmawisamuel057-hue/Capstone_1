@@ -36,4 +36,4 @@ The store ranking showed that South Portland was the top-performing Maine store.
 Based on the analysis, the company should focus on increasing average transaction size in lower-performing Maine stores. Since transaction counts are relatively similar across stores, increasing the value of each purchase could improve overall revenue. Strategies could include promoting higher-value products, bundling products, and applying successful sales strategies from top-performing stores like South Portland.
 
 # Video Presentation
-Video Link: 
+Video Link: https://www.loom.com/share/436e12d8b4ca41919d1d9e9eba235a59
