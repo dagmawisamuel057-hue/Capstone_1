@@ -17,29 +17,7 @@ SELECT
 FROM store_sales ss
 JOIN store_locations sl ON ss.Store_ID = sl.StoreID
 WHERE sl.State = 'Maine';
-SELECT 
-    SUM(ss.Sale_Amount) AS Total_Revenue,
-    MIN(ss.Transaction_Date) AS Start_Date,
-    MAX(ss.Transaction_Date) AS End_Date
-FROM Store_Sales ss
-JOIN Store_Locations sl ON ss.Store_ID = sl.StoreId
-WHERE sl.State = 'Maine';
-SHOW TABLES;
-SELECT COUNT(*) FROM Store_Sales;
-SELECT 
-    SUM(ss.Sale_Amount) AS Total_Revenue,
-    MIN(ss.Transaction_Date) AS Start_Date,
-    MAX(ss.Transaction_Date) AS End_Date
-FROM Store_Sales ss
-JOIN Store_Locations sl ON ss.Store_ID = sl.StoreId
-WHERE sl.State = 'Maine';
-SELECT 
-    SUM(ss.Sale_Amount) AS Total_Revenue,
-    MIN(ss.Transaction_Date) AS Start_Date,
-    MAX(ss.Transaction_Date) AS End_Date
-FROM Store_Sales ss
-JOIN Store_Locations sl ON ss.Store_ID = sl.StoreId
-WHERE sl.State = 'Maine';
+
 -- Question 2: Monthly revenue trend for Maine
 SELECT 
     DATE_FORMAT(ss.Transaction_Date, '%Y-%m') AS Month,
